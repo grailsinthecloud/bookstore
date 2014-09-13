@@ -11,7 +11,7 @@ class User {
 	String cardNumber
 	String cardType
 	Boolean hasFacebookLogin
-	Integer facebookId
+	Long facebookId
 	String score
 
 	static hasMany = [ top10Books : Book, reviews: Review ]
